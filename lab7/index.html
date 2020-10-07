@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frame</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+    <frameset rows="10%, 80%, 10%">
+        <frame src="top.html">
+            <frameset cols="25%, 75%">
+                <frame src="menu.html">
+                <frame src="content.html" name="main">
+            </frameset>
+        <frame src="footer.html">
+    </frameset>
+    
+
+</html>
