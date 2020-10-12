@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    background-color: black;
+}
+.members{
+    width: 100%;
+    background-color: rgb(245, 245, 67);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+h1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.list{
+    margin: auto;
+    width: 50%;;
+}
+li{
+    margin-bottom: 3px;
+}
+.lines{
+    margin-top: 10px;
+    text-align: center;
+}
+.namealbum{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.albums{
+    display: flex;
+    justify-content:center;
+}
+.first{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.second{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.third{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.fourth{
+    font-weight: bold;
+}
+.albums p{
+    margin-bottom: 10px;
+}
+.photo{
+    background-color: rgb(245, 245, 67);
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.ph{
+    display: flex;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+}
+.albums a img:hover{
+    box-shadow: 0 0 15px rgb(255, 255, 0);
+}
+.phimg{
+    margin-right: 3%;
+}
+.ph a img:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.mmap{
+    background-color: black;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.maps{
+    text-align: center;
+}
+.svg{
+    background-color: yellow;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.ye{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
