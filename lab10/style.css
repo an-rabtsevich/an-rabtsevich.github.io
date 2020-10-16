@@ -25,12 +25,16 @@ th{
     padding: 20px 0;
     border-radius: 30px;
     background-color: #eab4ff59;
+    -webkit-box-shadow: 3px 4px 9px #00000075;
+    box-shadow: 3px 4px 9px #00000075;
 }
 td{
     text-align: center;
     padding: 5px 0;
     border-radius: 30px;
     background-color: #eab4ff59;
+    -webkit-box-shadow: 3px 4px 9px #00000075;
+    box-shadow: 3px 4px 9px #00000075;
 }
 h3{
     font-weight: bold;
