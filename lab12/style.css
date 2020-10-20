@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(241, 205, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.first{
+    padding: 20px;
+    background-color: rgb(1, 175, 175);
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    left: 600px;
+    top: 200px;
+}
+.second{
+    padding: 20px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    position: absolute;
+    left: 500px;
+    bottom: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 123, 123);
+}
+.third{
+    padding: 20px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    position: fixed;
+    right: 40px;
+    top: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 175, 250);
+}
+.fourth{
+    padding: 20px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    position: static;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 125, 241);
+}
+a{
+    text-decoration: none;
+}
+.first:hover{
+    -webkit-box-shadow: inset 0px -4px 4px #0000006b;
+  box-shadow: inset 0px -4px 4px #0000006b;
+}
+.second:hover{
+    -webkit-box-shadow: inset 0px -4px 4px #0000006b;
+  box-shadow: inset 0px -4px 4px #0000006b;
+}
+.third:hover{
+    -webkit-box-shadow: inset 0px -4px 4px #0000006b;
+  box-shadow: inset 0px -4px 4px #0000006b;
+}
+.fourth:hover{
+    -webkit-box-shadow: inset 0px -4px 4px #0000006b;
+  box-shadow: inset 0px -4px 4px #0000006b;
+}
+h1:hover{
+    text-transform: uppercase;
+}
