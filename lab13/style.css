@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 2em;
+    background-color:#222;
+    color:#333;
+    padding:1em;
+  }
+  
+  #cuadricula {
+    display: grid;
+    grid-template-columns:min-content 1fr 1fr;
+    grid-template-rows:6em max-content;
+    grid-gap:1em;
+  }
+  
+  li{white-space: nowrap;}
+  
+  .item {
+    padding:1em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #3E989B;
+    background-color: var(--color);
+  }
+  
+  p{font-size:120%; }
+  code{font-family:monospace; font-size:1.25em; color:black;}
+
+  h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+  }
