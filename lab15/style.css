@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: "Trebuchet MS", "Lucida Sans";
+}
+header{
+  text-align: center;
+  color: white;
+  width: 100%;
+  z-index: 999;
+  top: 10px;
+  font-size: 15px;
+  opacity: 60%;
+  padding-top: 10px;
+}
+h1:hover{
+  text-shadow: #ffffff 0 0 20px;
+}
+.spisok{
+    width: 60%;
+    margin: auto;
+}
+.dbl-border {
+  list-style: none;
+  margin: 0;
+}
+.dbl-border li {
+  margin: 15px auto;
+  position: relative;
+}
+.dbl-border a {
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  border-left: 6px solid #ffffff;
+  display: block;
+  padding-left: 25px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 20px;
+  position: relative;
+  transition: 0.3s linear;
+  letter-spacing: 5px;
+}
+.dbl-border a:before {
+  content: "";
+  width: 6px;
+  height: 70%;
+  background: #ff4000;
+  position: absolute;
+  top: 15%;
+  left: -12px;
+}
+.dbl-border li:before {
+  content: "";
+  width: 6px;
+  height: 40%;
+  background: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: -12px;
+}
+.dbl-border a:hover {
+  background: #d4d8d9;
+  color: #a71a1a;
+}
+
+.photo img{
+  display: block;
+  width: 500px;
+  margin: 50px;
+}
+.ccc img{
+  margin: auto;
+}
+.rrr{
+  position: absolute;
+  right: 20px;
+}
+.photo img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.border {
+  width: 80%;
+  margin: 500px auto;
+  list-style: none;
+  padding: 0;
+  color: white;
+  }
+  .border li {
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 10px solid #ffffff; 
+  box-shadow: 2px -2px 5px 0 rgba(255, 255, 255, 0.1),
+       -2px -2px 5px 0 rgba(255, 255, 255, 0.1),
+      2px 2px 5px 0 rgba(255, 255, 255, 0.1),
+      -2px 2px 5px 0 rgba(255, 255, 255, 0.1);
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s all linear;
+  }
+  .border li:nth-child(2){border-color: #ff0000;}
+  .border li:nth-child(3){border-color: #ffffff;}
+  .border li:hover {border-left: 10px solid transparent;}
+  .border li:nth-child(1):hover {border-right: 10px solid #ff0000;}
+  .border li:nth-child(2):hover {border-right: 10px solid #ffffff;}
+  .border li:nth-child(3):hover {border-right: 10px solid #ff0000;}
