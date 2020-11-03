@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+    background-image: url(/img/star-sky-for-adobe-muse-1000x500.png);
+}
+hr{
+  background-color: white;
+  
+}
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+}
+.name{
+  font-size: 5rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .earth{
+    max-width: 100%;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 6px 8px #000000;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+h3{
+  margin: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+  
+.flexbox-section{
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 40px 20px;
+  border: 2px solid white;
+}
+.planet-front{
+    width: 500px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+.planet-back{
+    color: white;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card:hover .planet-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+ 
+.card:hover .planet-back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+.facts{
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
