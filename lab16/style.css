@@ -88,6 +88,7 @@ h3{
   height: 500px;
   margin: 40px 20px;
   border: 2px solid white;
+  background-color: rgb(21, 0, 48);
 }
 .planet-front{
     width: 500px;
@@ -98,6 +99,7 @@ h3{
     transition: transform 0.3s;
 }
 .planet-back{
+    width: 500px;
     color: white;
     position: absolute;
     -webkit-backface-visibility: hidden;
