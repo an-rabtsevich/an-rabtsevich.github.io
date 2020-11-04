@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Jura', sans-serif;
+    background: linear-gradient(45deg, #e9886a, #ec5d94, #49b1d6, #56dbbc);
+	background-size: 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+	padding: 10px;
+	margin-left: 13%;
+	font-size: 6vh;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+h1:hover{
+	color: white;
+	text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #e100ff, 0 0 80px #f700ff, 0 0 90px #f700ff, 0 0 100px #ea00ff, 0 0 150px #ea00ff;
+}
+
+.tsitata{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.tsitata-item{
+	position: absolute;
+	right: 80px;
+	top: 100px; 
+}
+h3{
+	font-size: 4.5vh;
+	text-align: center;
+}
+.sosmislom{
+	font-size: 3.5vh;
+	font-style: italic;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: 1s;
+}
+.sosmislom:hover{
+	transform: scale(1.2);
+}
+
+.hover-main{
+	position: relative;
+	margin-top: 320px;
+}
+.hover-item{
+	position: relative;
+	width: 400px;
+	height: 560px;
+	border: 1px solid white;
+	margin: 10px 50px;
+}
+.hover-effect-black{
+	width: 400px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	
+}
+.hover-effect-blur{
+	width: 400px;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover-effect-black:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.hover-effect-blur:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.card-main{
+	position: relative;
+	margin-top: 30px;
+}
+.card-text{
+	position: relative;
+}
+.cards{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.cards-item{
+	position: relative;
+	width: 400px;
+	height: 560px;
+	border: 1px solid white;
+	margin: 10px 50px;
+}
+.img-front{
+	position: absolute;
+	width: 400px;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+.img-back{
+	position: absolute;
+	width: 400px;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.cards-item:hover .img-front {
+	-webkit-transform: rotateY(-180deg);
+			transform: rotateY(-180deg);
+  }
+   
+  .cards-item:hover .img-back {
+	-webkit-transform: rotateY(0);
+			transform: rotateY(0);
+  }
+
+h2{
+	text-align: center;
+	padding: 40px;
+	font-size: 5vh;
+}
