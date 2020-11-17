@@ -54,7 +54,6 @@ input{
 .result{
     font-size: 50px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 20px;
     color: black;
-    z-index: 999;
 }

@@ -1,38 +1,18 @@
-function doit(form)
+function doit()
 {
-    var result;
-
     var firstEl = document.getElementById("firstEl").value;
     var secondEl = document.getElementById("secondEl").value;
     var thirdEl = document.getElementById("thirdEl").value;
+    console.log(firstEl);
+    var text1 = firstEl + " - very beautiful country";
+    var text2 = secondEl + " - country of modest, intelligent beauty";
+    var text3 = thirdEl + " - a great opportunity to relax with the whole family";
+
+    document.getElementById("result1").innerHTML = text1;
+    document.getElementById("result2").innerHTML = text2;
+    document.getElementById("result3").innerHTML = text3;
 
     var text = document.getElementById("text").value;
     var replaceText = text.replace("man", "person");
-    //document.getElementById("result").innerHTML = result;
-    //result = document.getElementById("text").value;
-    //document.getElementById("text").innerHTML = result;
-    //result.innerHTML = replaceText.innerHTML;
-    
-    var arr = [firstEl, secondEl, thirdEl];
-    document.write("Our array: " + "<br/>");
-    for(var i = 0; i < 3; i++)
-    {
-        if(i == 2)
-        {
-            arr[i] = "Norway";
-        }
-
-        document.write(arr[i] + "<br/>");
-    }
-    
-    arr.push(firstEl, thirdEl);
-    var length = 0;
-    document.write("<br/>Our NEW array: " + "<br/>");
-    for(var i = 0; i < 5; i++)
-    {
-        document.write(arr[i] + "<br/>");
-        length++;
-    }
-    document.write("<br/>Length of the array: " + length + "<br/>");
-    document.write("<br>Replace sentence: " + replaceText); 
+    document.getElementById("repText").innerHTML = replaceText;
 }

@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <form>
+    <form onsubmit="return false">
         <h2>Enter your 2 favourite countries)</h2>
         <input type="text" size="20" class="El" id="firstEl"><br>
         <input type="text" size="20" class="El" id="secondEl"><br>
@@ -21,6 +21,17 @@
 
         <input type="submit" class="button" id="button" value="Complete" onclick="doit()"><br>
     </form>
+
+    <div class="main">
+
+        <div class="result" id="result1"></div>
+        <div class="result" id="result2"></div>
+        <div class="result" id="result3"></div>
+
+        <div class="result" id="repText"></div>
+
+    </div>
+
 
     <script src="script.js"></script>
 </body>
