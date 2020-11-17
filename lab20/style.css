@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(0, 0, 0)
+}
+.main{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+.text{
+    width: 500px;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px; 
+}
+.text2{
+    width: 1100px;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px; 
+}
+.text3{
+    width: 1100px;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px; 
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 15px #e100ff, 0 0 20px #f700ff, 0 0 25px #f700ff, 0 0 50px #ea00ff, 0 0 100px #ea00ff;
+}
+button{
+    width: 200px;
+    font-size: 35px;
+    margin: 50px;
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(218, 75, 247), rgb(75, 213, 255));
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 960px){
+    button{
+        font-size: 30px;
+        width: 200px;
+    }
+    .text{
+        font-size: 50px;
+        width: 500px;
+    }
+    .text2{
+        font-size: 50px;
+        width: 1100px;
+    }
+    .text3{
+        font-size: 50px;
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    button{
+        font-size: 20px;
+        width: 150px;
+    }
+    .text{
+        font-size: 30px;
+        width: 400px;
+    }
+    .text2{
+        font-size: 30px;
+        width: 900px;
+    }
+    .text3{
+        font-size: 30px;
+        width: 900px;
+    }
+}
