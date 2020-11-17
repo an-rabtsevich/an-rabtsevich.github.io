@@ -1,20 +1,25 @@
 function doit(form)
 {
-    
+    var result;
+
     var firstEl = document.getElementById("firstEl").value;
     var secondEl = document.getElementById("secondEl").value;
     var thirdEl = document.getElementById("thirdEl").value;
 
     var text = document.getElementById("text").value;
     var replaceText = text.replace("man", "person");
-
+    //document.getElementById("result").innerHTML = result;
+    //result = document.getElementById("text").value;
+    //document.getElementById("text").innerHTML = result;
+    //result.innerHTML = replaceText.innerHTML;
+    
     var arr = [firstEl, secondEl, thirdEl];
     document.write("Our array: " + "<br/>");
     for(var i = 0; i < 3; i++)
     {
         if(i == 2)
         {
-            arr[i] = "anotherElement";
+            arr[i] = "Norway";
         }
 
         document.write(arr[i] + "<br/>");
@@ -29,5 +34,5 @@ function doit(form)
         length++;
     }
     document.write("<br/>Length of the array: " + length + "<br/>");
-    document.write("Replace sentence: " + replaceText);
+    document.write("<br>Replace sentence: " + replaceText); 
 }
