@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nerko One', cursive;
+    background-image: url(./img/15.jpg);
+    background-size: 100%;
+}
+.scroll{
+    width: 100%;
+    margin: auto;
+    font-size: 80px;
+}
+.scrollText{
+    text-shadow: 6px 4px rgba(66, 180, 209, 0.589);
+    margin-top: 20px;
+}
+img{
+    width: 300px;
+}
+.flip{
+    position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 40px 20px;
+    border: 2px solid white;
+}
+.front{
+    width: 300px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+.back{
+    width: 300px;
+    color: white;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.card:hover .front {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+   
+  .card:hover .back {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+
+.btn{
+    width: 100%;
+    display: flex;	
+    justify-content: center;
+}
+.button{
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(100, 171, 192);
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.NY{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.NY img{
+    display: block;
+    margin: auto;
+    width: 100vw;
+}
