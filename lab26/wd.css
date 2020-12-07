@@ -1,0 +1,22 @@
+body{
+    background-image: url(./img/wdd.jpg);
+    background-size: cover;
+}
+a.s{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+}
+a.v{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+}
+.s{
+    top: 65vh;
+    left: 63vw;
+}
+.v{
+    top: 60vh;
+    left: 23vw;
+}

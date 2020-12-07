@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+header{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(197, 147, 229, 0.562);
+    color: rgb(84, 0, 95);
+}
+li {
+    list-style-type: none; 
+}
+ul.topMenu > li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+ul.topMenu{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: rgb(84, 0, 95);
+}
+a:hover{
+    cursor: pointer;
+}
+ul.subMenu{
+    background-color: rgba(169, 82, 223, 0.795);
+}
+.subMenu{
+    font-size: 16px;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: 0.5s;
+    margin: 5px;
+    width: 100%;
+    margin-left: -20px;
+    color: white;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+}
+.topMenu a:hover{
+    color: white;
+}
+.topMenu li:hover .subMenu{
+    transform: scaleY(1);
+    color: rgb(255, 255, 255);
+}
+ul.subMenu li{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.ii{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.image{
+    width: 500px;
+    margin: 40px;
+}

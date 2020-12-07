@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tssa.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+    <title>tssa test</title>
+</head>
+<body>
+
+    <header>
+        <ul class="topMenu">
+            <li style="position: relative;">СЕССИЯ&#x2193;
+                <ul class="subMenu" style="position: absolute;">
+                    <li><a href="./index.html">На главную</a></li>
+                    <li><a href="./wd.html">WД</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="page">
+        <h1>Готовы к экзамену по ТССА?</h1>
+    <form name="myform">
+
+    <div class="questions">
+
+        <div class="soloquest">
+
+            <p>Что такое ЛСС?</p>
+
+        <div class="case" id="case">
+            <div class="but">
+                <input type="radio" name="q1" value="false" id="11" /><label for="11">Линейные сооружения связи</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q1" value="true" id="12" /><label for="12">Линейная стационарная сиситема</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q1" value="false" id="13" /><label for="13">Лекционно-семинарская система</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="soloquest">
+
+            <p>Как обозначается аналитическое выржение для переходной характеристики системы?</p>
+
+        <div class="case" id="case">
+            <div class="but">
+                <input type="radio" name="q2" value="true" id="21" /><label for="21">h(t)</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q2" value="false" id="22" /><label for="22">k(t)</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q2" value="false" id="23" /><label for="23">x(t)</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="soloquest">
+
+            <p>Что можно рассчитать с помошью интергала Дюамеля?</p>
+
+        <div class="case" id="case">
+            <div class="but">
+                <input type="radio" name="q3" value="false" id="31" /><label for="31">Импульсную характеристику</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q3" value="false" id="32" /><label for="32">Входной сигнал</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q3" value="true" id="33" /><label for="33">Выходной сигнал</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="soloquest">
+
+            <p>Совокупность всех спектральных составляющих - это спектр?</p>
+
+        <div class="case" id="case">
+            <div class="but">
+                <input type="radio" name="q4" value="true" id="41" /><label for="41">Правда</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q4" value="false" id="42" /><label for="42">Ложь</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="soloquest">
+
+            <p>Сколько существует спектров в ТССА?</p>
+
+        <div class="case" id="case">
+            <div class="but">
+                <input type="radio" name="q5" value="false" id="51" /><label for="51">3</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q5" value="true" id="52" /><label for="52">2</label>
+            </div>
+            <div class="but">
+                <input type="radio" name="q5" value="false" id="53" /><label for="53">5</label>
+            </div>
+        </div>
+        </div>
+
+        <input type="button" id="button" class="button" value="Проверить" onclick="check()">
+        
+    </div> 
+    </form>
+    
+    <div class="final" id="final">
+        <div class="result" id="result">
+            
+            <p id="res"></p>
+            <p id="count"></p>
+    
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
