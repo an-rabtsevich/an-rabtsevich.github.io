@@ -10,13 +10,14 @@
     <title>wd</title>
 </head>
 <body>
-    
+    <div id="page">
     <header>
         <ul class="topMenu">
             <li style="position: relative;">СЕССИЯ&#x2193;
                 <ul class="subMenu" style="position: absolute;">
                     <li><a href="./index.html">На главную</a></li>
                     <li><a href="./tssa.html">Ты не сдашь экзамен!</a></li>
+                    <li><a onclick="economy()">ЭО</a></li>
                 </ul>
             </li>
         </ul>
@@ -24,6 +25,17 @@
 
     <a class="s" href="https://codepen.io/">Скатать</a>
     <a class="v" href="http://htmlbook.ru/">Выучить</a>
+
+    </div>
+
+    <div class="result" id="result">
+        <div class="result__inner">
+            <img class="res_img" src="./img/aa.jpg"><br><br><br>
+            <a href="./wd.html" class="result__btn">Закрыть</a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>

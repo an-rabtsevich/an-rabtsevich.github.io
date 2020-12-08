@@ -9,12 +9,14 @@
     <title>bad</title>
 </head>
 <body>
+    <div id="page">
     <header>
         <ul class="topMenu">
             <li style="position: relative;">СЕССИЯ&#x2193;
                 <ul class="subMenu" style="position: absolute;">
                     <li><a href="./tssa.html">Ты не сдашь экзамен!</a></li>
                     <li><a href="./wd.html">WД</a></li>
+                    <li><a onclick="economy()">ЭО</a></li>
                 </ul>
             </li>
         </ul>
@@ -23,6 +25,15 @@
     <div class="ii">
         <img class="image" id="image" src="./img/i1.jpg" onload="imgSrc()" alt="" />
     </div>
+    </div>
+
+    <div class="result" id="result">
+        <div class="result__inner">
+            <img class="res_img" src="./img/aa.jpg"><br><br><br>
+            <a href="./index.html" class="result__btn">Закрыть</a>
+        </div>
+    </div>
+
     
     <script src="./script.js"></script>
 </body>

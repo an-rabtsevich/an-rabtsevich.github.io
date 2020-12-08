@@ -46,5 +46,12 @@ function check()
                 resCount = count + result;
                 document.getElementById("res").innerHTML = res;
                 document.getElementById("count").innerHTML = resCount;
-                document.getElementById("result").style.display = 'block';
+                document.getElementById("result1").style.display = 'block';
+}
+
+
+function economy()
+{
+    document.getElementById("page").style.filter = "blur(10px)";
+    document.getElementById("result").style.display = "block";
 }
