@@ -1,0 +1,115 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: url(./img/fon.jpg);
+    background-size: 100%;
+    color: white;
+}
+header{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px;
+}
+.header_a a{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.header_a a:hover{
+    color: rgb(255, 74, 128);
+}
+.film{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 63vw;
+    height: 65vh;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.575);
+    -webkit-box-shadow: 5px 7px 11px #00000075;
+    box-shadow: 5px 7px 11px #00000075;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.image{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+.name{
+    font-weight: bold;
+}
+p{
+    margin: 20px;
+    font-size: 23px;
+    color: black;
+}
+.bb{
+    text-align: center;
+}
+.btn{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(255, 170, 205, 0.753);
+    border-radius: 100px;
+    outline: none;
+}
+#film2{
+    display: none;
+}
+#film3{
+    display: none;
+}
+#film4{
+    display: none;
+}
+
+@media(max-width: 1750px)
+{
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 1650px)
+{
+    .image{
+        width: 500px;
+    }
+}
+@media(max-width: 1500px)
+{
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 25px;
+    }
+}
+@media(max-width: 1350px)
+{
+    .image{
+        width: 450px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+}

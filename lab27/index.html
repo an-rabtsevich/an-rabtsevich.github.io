@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+    <title>movies</title>
+</head>
+<body>
+
+    <header class="header_a">
+        <a onclick="film1()">Отступники</a>
+        <a onclick="film2()">Невидимая сторона</a>
+        <a onclick="film3()">Форрест Гамп</a>
+        <a onclick="film4()">Невидимый гость</a>
+    </header>
+
+    <div class="film" id="film1">
+
+        <h3>Отступники</h3>
+        <img class="image" src="./img/i1.jpg" onmouseout="this.src='./img/i1.jpg'" onmouseover="this.src='./img/i2.jfif'">
+        <p class="name">«Свой среди чужих»</p>
+        <p>Два лучших выпускника полицейской академии оказались по разные стороны баррикады: один из них
+             – агент мафии в рядах правоохранительных органов, другой – «крот», внедрённый в мафию. Каждый 
+             считает своим долгом обнаружить и уничтожить противника, но постоянная жизнь в искажённых реалиях 
+             меняет внутренний мир героев.</p>
+
+             <div class="bb">
+                <button class="btn" id="btn" onclick="sled1()">Следующий</button>
+             </div>    </div>
+
+    <div class="film" id="film2">
+
+        <h3>Невидимая сторона</h3>
+        <img class="image" src="./img/i3.jpg" onmouseout="this.src='./img/i3.jpg'" onmouseover="this.src='./img/cry.jpg'">
+        <p class="name">«Основано на удивительных реальных событиях»</p>
+        <p>Благополучная белая семья берет к себе толстого, неграмотного бездомного темнокожего подростка 
+            и помогает стать ему спортивной звездой, и поступить в университет.</p>
+
+            <div class="bb">
+                <button class="btn" id="btn" onclick="sled2()">Следующий</button>
+             </div>    </div>
+
+    <div class="film" id="film3">
+
+        <h3>Форрест Гамп</h3>
+        <img class="image" src="./img/i4.jpg" onmouseout="this.src='./img/i4.jpg'" onmouseover="this.src='./img/i5.jpg'">
+        <p class="name">«Мир уже никогда не будет прежним, после того как вы увидите его глазами Форреста Гампа»</p>
+        <p>От лица главного героя Форреста Гампа, слабоумного безобидного человека с благородным и открытым сердцем, 
+            рассказывается история его необыкновенной жизни.</p>
+
+            <div class="bb">
+                <button class="btn" id="btn" onclick="sled3()">Следующий</button>
+             </div>    </div>
+
+    <div class="film" id="film4">
+
+        <h3>Невидимый гость</h3>
+        <img class="image" src="./img/i6.jfif" onmouseout="this.src='./img/i6.jfif'" onmouseover="this.src='./img/i7.jpg'">
+        <p class="name">«У каждой истории две стороны. Правда - только одна»</p>
+        <p>Молодого бизнесмена Адриана Дориа обвиняют в убийстве любовницы, и он решает воспользоваться 
+            услугами Вирджинии Гудман, лучшего в стране специалиста по выходу из самых сложных ситуаций. Адриан 
+            содержится под домашним арестом, а завтра состоится судебное заседание, поэтому вечером к нему приходит
+             Вирджиния, чтобы придумать наилучшую стратегию защиты. Для неё это последнее дело, и она не 
+             собирается его проигрывать.</p>
+
+             <div class="bb">
+                <button class="btn" id="btn" onclick="sled4()">Следующий</button>
+             </div>
+            
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
