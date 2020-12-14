@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Neucha', cursive;
+    background-image: url(./img/photo_2020-12-14_21-35-58.jpg);
+    background-size: 100%;
+    color: white;
+}
+header{
+    width: 100%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.vk{
+    border-radius: 100px;
+}
+.im{
+    border-radius: 25px;
+}
+.lin{
+    border-radius: 25px;
+}
+img:hover{
+    box-shadow: 0 0 15px  rgb(255, 255, 255);
+}
+.all{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+}
+.case{
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+}
+.name{
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1% 0;
+}
+.brp{
+    clear: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px){
+    img{
+        width: 270px;
+        height: 190px;
+    }
+}
