@@ -1,0 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input.search{
+    max-width: 300px;
+    margin-right: 15px;
+}
+.price_discount input{
+    width: 70px;
+    margin: auto;
+}
+.price_title, .price_title span{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.price_final{
+    display: flex;
+    justify-content: flex-end;
+}
+th{
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+}
+td{
+    padding: 15px;
+    text-align: center; 
+}
