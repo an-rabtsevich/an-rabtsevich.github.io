@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>UBEREATS</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_content">
+            <img src="img/logo.svg">
+            <div class="header_basket">
+                <button class="btn">
+                    <a gref="#" href="#" role="button">Войти</a>
+                </button>
+                <a href="#" class="basket"><img src="img/basket.svg"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="search_content">
+            <form>
+                <input type="text" placeholder="Поиск по ресторанам и кухням">
+            </form>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main_content">
+            <h2 class="flex_content_title">Рестораны в Москве</h2>
+            <div class="flex_content">
+                <div class="card">
+                    <a href="pushkin.html" class="rest">
+                        <img class="card_img" src="img/cards/photo0.png">
+                        <h3 class="card_name">Трактир «Пушкин»</h3>
+                        <p class="card_cost">₽₽₽ • Европейская</p>
+                        <p class="card_time">40 - 50 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo1.png">
+                        <h3 class="card_name">Макдоналдс — Газетный</h3>
+                        <p class="card_cost">₽₽ • Бургеры</p>
+                        <p class="card_time">25 - 35 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo2.png">
+                        <h3 class="card_name">DimSum & Co — ЦДМ</h3>
+                        <p class="card_cost">₽ • Японская • Китайская • Азиатская</p>
+                        <p class="card_time">40 - 50 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo3.png">
+                        <h3 class="card_name">ДвижОК — Манежная</h3>
+                        <p class="card_cost">₽ • Американская • Европейская</p>
+                        <p class="card_time">35 - 45 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo4.png">
+                        <h3 class="card_name">НЯ — NHA</h3>
+                        <p class="card_cost">₽₽ • Вьетнамская</p>
+                        <p class="card_time">30 - 40 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo5.png">
+                        <h3 class="card_name">Точка Дзы — Цветной</h3>
+                        <p class="card_cost">₽₽ • Вьетнамская</p>
+                        <p class="card_time">40 - 50 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo6.png">
+                        <h3 class="card_name">Cinnabon</h3>
+                        <p class="card_cost">₽ • Выпечка • Десерты • Капкейки</p>
+                        <p class="card_time">25 - 35 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo7.png">
+                        <h3 class="card_name">PIZZELOVE</h3>
+                        <p class="card_cost">₽₽ • Пицца</p>
+                        <p class="card_time">15 - 25 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo8.png">
+                        <h3 class="card_name">Zю кафе — Тверская</h3>
+                        <p class="card_cost">₽₽ • Японская</p>
+                        <p class="card_time">25 - 35 мин</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="rest">
+                        <img class="card_img" src="img/cards/photo9.png">
+                        <h3 class="card_name">Bar BQ Cafe — Манежная</h3>
+                        <p class="card_cost">₽₽₽ • Европейская</p>
+                        <p class="card_time">30 - 40 мин</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main_footer">
+        <div class="footer_content">
+            <div class="footer_logo add_hr">
+                <img src="img/white-logo.svg">
+            </div>
+            <div class="footer_column_flex add_hr">
+                <div class="footer_column fir_col">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><img src="img/world.svg"
+                                class="footer_img_lang">Русский<img src="img/lang-icon.svg"
+                                class="footer_img_icon"></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">English</a>
+                        </div>
+                    </div>
+                    <p class="hashtag_text"><span class="hashtag">#</span>UberEats</p>
+                    <div class="links">
+                        <img src="img/facebook.png">
+                        <img src="img/twitter.png">
+                        <img src="img/instagram.png">
+                    </div>
+                </div>
+
+                <div class="footer_column">
+                    <p class="footer_anchor">Об UberEats</p>
+                    <p class="footer_anchor">Станьте партнёром по доставке</p>
+                    <p class="footer_anchor">Станьте парнёром-рестораном</p>
+                </div>
+
+                <div class="footer_column">
+                    <p class="footer_anchor">Все города</p>
+                    <p class="footer_anchor">Цены</p>
+                    <p class="footer_anchor">Помощь</p>
+                    <p class="footer_anchor">FAQs</p>
+                </div>
+            </div>
+
+            <div class="footer_dl_links add_hr">
+                <img src="img/AppStore.png" class="dl_links_img">
+                <img src="img/GooglePlay.png" class="dl_links_img">
+            </div>
+
+            <div class="footer_column_flex">
+                <div class="footer_column">
+                    <p class="footer_text">© 2017 Uber Technologies Inc.</p>
+                </div>
+
+                <div class="footer_column">
+                    <p class="footer_text">Обработка персональных данных</p>
+                </div>
+
+                <div class="footer_column">
+                    <p class="footer_text">Пользовательское соглашение</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="btn_up"><img src="img/btn-up.png"></a>
+
+
+
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
